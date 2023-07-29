@@ -18,7 +18,12 @@ smallest_number = min(numbers)
 print(largest_number - smallest_number)
 
 # 3. Print True if the list contains a 2 next to a 2 somewhere.
-if 
+# print(numbers.index(2))
+
+if numbers.index(2) == 2  and numbers.index(2) == 2:
+    print(True)
+else:
+    print(False)
 
 
 # 4. Print the sum of the numbers, 
@@ -26,6 +31,10 @@ if
 #    
 #    So [11, 6, 4, 99, 7, 11] would have sum of 22
 
+integers = [11, 6, 4, 99, 7, 11]
+
+print(sum(integers[::5]))
+print(integers[::5])
 
 # 5. HARD! Print the sum of the numbers. 
 #    Except the number 13 is very unlucky, so it does not count.
